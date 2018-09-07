@@ -2,9 +2,10 @@ window.addEventListener('load', init);
 
 //available levls
 const levels = {
-    easy: 5,
-    medium: 3,
-    hard: 2
+    easy: 7,
+    medium: 5,
+    hard: 3,
+    extra_hard:2
 }
 //change level
 const currentLevel = levels.easy;
@@ -45,7 +46,17 @@ const words = [
     'magic',
     'master',
     'space',
-    'definition'
+    'definition',
+    'about',
+    'above',
+    'abroad',
+    'absence',
+    'absolutely',
+    'absorb',
+    'abuse',
+    'academic',
+    'accept',
+    'access'
   ];
 
   function init() {
